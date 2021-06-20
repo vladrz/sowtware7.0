@@ -17,6 +17,4 @@ $controllerName = isset($_GET['controller'])? ucfirst($_GET['controller']) : 'In
 $actionName = isset($_GET['action']) ? $_GET['action'] : 'index';
 
 loadPage($smarty, $controllerName , $actionName);
-
-
  ?>
